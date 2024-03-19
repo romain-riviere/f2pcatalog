@@ -1,0 +1,83 @@
+[versions]
+agp = "8.3.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.8.2"
+composeBom = "2024.02.02"
+timber = "5.0.1"
+startupRuntime = "1.1.1"
+navigationCompose = "2.8.0-alpha04"
+sandwich = "2.0.6"
+roomKtx = "2.6.1"
+retrofit = "2.9.0"
+converterJaxb = "2.9.0"
+constraintlayout = "2.1.4"
+materialIconsExtended = "1.7.0-alpha04"
+landscapistCoil = "2.3.2"
+landscapistAnimation = "2.3.2"
+landscapistPalette = "2.3.2"
+javapoet = "1.13.0"
+hiltAndroid = "2.51"
+hiltNavigation = "1.2.0"
+hiltNavigationCompose = "1.2.0"
+hiltAndroidCompiler = "2.51"
+gradle = "8.3.0"
+kotlinGradlePlugin = "1.9.0"
+hiltAndroidGradlePlugin = "2.51"
+spotlessPluginGradle = "6.25.0"
+roomCompiler = "2.6.1"
+converterSimplexml = "2.9.0"
+sandwichRetrofit = "2.0.6"
+converterGson = "2.10.0"
+converterJaxbVersion = "2.10.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
+androidx-startup-runtime = { group = "androidx.startup", name = "startup-runtime", version.ref = "startupRuntime" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+sandwich = { group = "com.github.skydoves", name = "sandwich", version.ref = "sandwich" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+converter-jaxb = { group = "com.squareup.retrofit2", name = "converter-jaxb", version.ref = "converterJaxb" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
+landscapist-coil = { group = "com.github.skydoves", name = "landscapist-coil", version.ref = "landscapistCoil" }
+landscapist-animation = { group = "com.github.skydoves", name = "landscapist-animation", version.ref = "landscapistAnimation" }
+landscapist-palette = { group = "com.github.skydoves", name = "landscapist-palette", version.ref = "landscapistPalette" }
+javapoet = { group = "com.squareup", name = "javapoet", version.ref = "javapoet" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltAndroid" }
+androidx-hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation", version.ref = "hiltNavigation" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+gradle = { group = "com.android.tools.build", name = "gradle", version.ref = "gradle" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+hilt-android-gradle-plugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "hiltAndroidGradlePlugin" }
+spotless-plugin-gradle = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotlessPluginGradle" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomCompiler" }
+converter-simplexml = { group = "com.squareup.retrofit2", name = "converter-simplexml", version.ref = "converterSimplexml" }
+sandwich-retrofit = { group = "com.github.skydoves", name = "sandwich-retrofit", version.ref = "sandwichRetrofit" }
+converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "converterGson" }
+retrofit2-converter-jaxb = { group = "com.squareup.retrofit2", name = "converter-jaxb", version.ref = "converterJaxbVersion" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">F2PCatalog</string>
+    <string name="database">Games.db</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_carousel">Carousel</string>
+</resources>
